@@ -1,0 +1,20 @@
+{
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_icon": "logo-off.png",
+        "default_title": "Reload page if file change is detected."
+    },
+    "name": "Reload on change",
+    "description": "Reload the current webpage if the specified files have changed.",
+    "icons": {
+        "16": "logo-off.png"
+    },
+    "permissions": [
+        "tabs",
+        "http://*/*"
+    ],
+    "version": "0.1",
+    "manifest_version": 2
+}
